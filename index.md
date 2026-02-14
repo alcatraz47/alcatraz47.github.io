@@ -1,120 +1,227 @@
-# Welcome to the world of Md. Mahmudul Haque a.k.a alcatraz47
+---
+layout: default
+title: Md. Mahmudul Haque | Portfolio
+---
 
-**Who am I?: I am a Data Science practitioner and have been researching in this domain for about 5 and half years. I have a little contribution to this field. I am mostly interested in Natural Language Processing though my first job as well as my capstone is on Computer Vision. I have publication on textual NLP and reasearch experience on voice based NLP.**
+<style>
+:root {
+  --bg: #f7f8fc;
+  --card: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --accent: #4f46e5;
+  --accent-soft: #e0e7ff;
+  --line: #e5e7eb;
+}
 
-### Hobby
+body {
+  background: radial-gradient(circle at top right, #eef2ff, var(--bg) 40%);
+  color: var(--text);
+}
 
-Travelling, Listening songs, Reading fiction books, and Watching motor sports specially Formula 1
+.portfolio {
+  max-width: 960px;
+  margin: 2rem auto 3rem;
+  font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+}
 
-### Job Experience
-**Current**:
-- Data Science Working Student / Intern at Henkel AG & Co. KGaA, Düsseldorf, Germany. 
-- And, I am studying at TU Dortmund MSc in Data Science programme.
+.hero {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  background: linear-gradient(135deg, #ffffff 0%, #f8faff 100%);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(31, 41, 55, 0.08);
+}
 
-**Past**:
-- Software Engineer at Proxify AB (Part-time) since January 2023 to March 2024
-- Data Scientist and Engineer at Eucaps Ltd. since June 2021 to September 2022
-- Machine Learnign Engineer at NybSys Pvt. Ltd. since January 2019 to October 2021
+.hero img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--accent-soft);
+}
 
-### Education 
-- MSc. in Data Science from Technical University Dortmund (Technische Universität Dortmund), Dortmund, Germany: April 2021 - present
-- BSc. in Computer Science and Engineering from North South University, Dhaka, Bangladesh.
-- Major: Artificial Intelligence and Machine Learning.
-- Institutional Trail Name: Artificial Intelligence.
+.hero h1 {
+  margin: 0;
+  font-size: 2rem;
+}
 
-CGPA: shush!!!.... I am an NSUer!
+.hero p {
+  margin: 0.4rem 0;
+  color: var(--muted);
+}
 
-### Work Experiences at jobs
+.tagline {
+  color: var(--text) !important;
+  font-weight: 600;
+}
 
-**Text Summarization on news data of financial SMEs in Europe.**
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.8rem;
+}
 
-- Key contributions: Text summarization on English news data and provide an API of it.
-- Tech stacks: NLTK, Transformers, Attention Mechanism, Pytorch, FastAPI, and AWS SageMaker.
+.links a {
+  text-decoration: none;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid #c7d2fe;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
 
-**Social media bot-based marketing for news distribution:**
-- Key contributions: Social media bots development LinkedIn, Email bots, Twitter.
-- Tech stacks: Python, All the bots API, FastAPI, AWS SES, AWS Lambda
+.links a:hover {
+  transform: translateY(-1px);
+  background: #c7d2fe;
+}
 
-**FaceNext Web and Mobile App: Access controlling system based on face recognition.**
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
 
-- Key contributions: Face alignment, Brightness enhancement, Recognition algorithm adjustment, Integration with Front-end, Positive Q/A testing, Cloud deployment (AWS and Azure), and Edge device (on Jetson TX2) compatibility testing.
-- Tech stacks: OpenCV, Pytorch, Cython, Linux(Ubuntu Distro),
-Anaconda.
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.1rem 1.2rem;
+}
 
-**Street Visitor: Developing pipelines and predictive analysis of workers GPS locating devices.**
+.card h2 {
+  margin: 0 0 0.6rem;
+  font-size: 1.05rem;
+}
 
-- Key contributions: ETL on data for the Data Science team.
-- Tech stacks: Pyspark, SQL, Scikit-learn, Shapely, Pandas.
+.card ul {
+  margin: 0;
+  padding-left: 1.15rem;
+}
 
-**ETL on Public Transport Data: ETL on the public transport data for report generation purpose of each day.**
+.full {
+  grid-column: 1 / -1;
+}
 
-- Key contribution: Fetch data from MS SQL Server to AWS S3 and AWS3 to AWS Redshift. Later on, automate the system by events in S3 using AWS Lambda.
-- Tech stacks: Python, Pandas, Psycopg2, MS SQL Server, AWS S3, AWS Lambda, AWS Redshift, AWS IAM, AWS Cloud Watch.
+.small {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
 
-**Survello Web: Computer vision-based surveillance system.**
+@media (max-width: 760px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
 
-- Key contributions: Object detection and tracking adjustment, integration with Front-end.
-- Tech stacks: OpenCV, Python, SQLite3, Keras, Pytorch.
+  .hero img {
+    margin: 0 auto;
+  }
 
-### Publication
+  .links {
+    justify-content: center;
+  }
 
-- **Data Mining Techniques to Categorize Single Paragraph Formed Self Narrated Stories (Paper accepted in ICT4SD, 2020)**
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 
-The proposed arrangement of this undertaking incorporates order of the passages utilising its temperament. Every one of the sections is self-described, and the number of words in those self-described passages vary from more than 100 to under 4200. The passages are classified utilising three classifications which are: ''Work Stress", ''Bullying" in both social and digital world, and ultimately ''Sexual Harassment" in public activity and digital world. Artificial neural network paragraph vectors: a distributed bag of words and distributed memory were utilised to get the features of each passage and later on to group them a few information mining strategies were employed, and these are: decision tree, k nearest neighbours, Gaussian naive Bayes, and logistic regression. The exactness of every calculation lied between 70\% to 94\% in the validation set. The best model gave 77.46\% F1 score in test sets.
+<div class="portfolio">
+  <section class="hero">
+    <img src="image/FB.jpg" alt="Profile photo of Md. Mahmudul Haque" />
+    <div>
+      <h1>Md. Mahmudul Haque</h1>
+      <p class="tagline">Data Scientist • NLP & Computer Vision • M.Sc. Data Science @ TU Dortmund</p>
+      <p>
+        I build practical machine learning products, from NLP pipelines and summarization APIs to
+        computer vision systems deployed on cloud and edge devices.
+      </p>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/md-mahmudul-haque-8a5484b2">LinkedIn</a>
+        <a href="https://github.com/alcatraz47?tab=repositories">GitHub</a>
+        <a href="https://medium.com/@arfanmahmud47/has-recommended">Medium</a>
+        <a href="https://www.facebook.com/mahmud.arfan.alcatraz47">Facebook</a>
+      </div>
+    </div>
+  </section>
 
-### Capstone
+  <section class="grid">
+    <article class="card">
+      <h2>About</h2>
+      <p>
+        Data science practitioner with 5+ years of research and industry experience.
+        Strong interest in <strong>Natural Language Processing</strong>, with hands-on delivery across
+        MLOps, APIs, model optimization, and production integration.
+      </p>
+    </article>
 
-- **Rice Disease Detection from Leaves**
-In this project, the dataset was taken from Kaggle. It contained about 3000 images and later on, I have increased the dataset using an image generator and enhanced the amount of dataset from 3000 to 8000. There are data of 5 diseased leaves and 1 healthy rice leaf. Later on, normalisation and image segmentation was done on them after contour detection with edge detection. Then the images were fed into an image generator for further data variation. After that, 3 custom CNNs, 2 Resnet32(one with Adam optimiser and another one with RADAM optimise)s were used to predict diseases/healthiness from that dataset. The accuracy was about 83% on custom CNNs and 85% on Resnets. The model was used as a worker using MQTT data/message transferring broker service via an Android application.
+    <article class="card">
+      <h2>Current Role</h2>
+      <ul>
+        <li>Data Science Working Student / Intern at <strong>Henkel AG & Co. KGaA</strong>, Düsseldorf</li>
+        <li>M.Sc. in Data Science at <strong>Technical University Dortmund</strong></li>
+      </ul>
+    </article>
 
-Technical Report Link: [ResearchGate](https://www.researchgate.net/publication/336639606_Krishok_-An_IoT_Based_Intelligent_Farming_Solution)
+    <article class="card">
+      <h2>Past Experience</h2>
+      <ul>
+        <li>Software Engineer (Part-time), Proxify AB (2023–2024)</li>
+        <li>Data Scientist & Engineer, Eucaps Ltd. (2021–2022)</li>
+        <li>Machine Learning Engineer, NybSys Pvt. Ltd. (2019–2021)</li>
+      </ul>
+    </article>
 
-### Internship/Research
+    <article class="card">
+      <h2>Core Skills</h2>
+      <ul>
+        <li>Python, PyTorch, FastAPI, Spark, SQL</li>
+        <li>NLP (summarization, text classification), Speech processing</li>
+        <li>Computer Vision (detection, recognition, tracking)</li>
+        <li>AWS (S3, Lambda, SageMaker, Redshift), Azure</li>
+      </ul>
+    </article>
 
-- **Emotion Recognition from Voice Using Deep Learning:** 
-It was the first project on voice processing along with Deep Neural Networks for sequential data. The dataset contained 7 classifications: Sad, Angry, Happy, Pleasant Surprise, Fear, Neutral, and Disgust. The dataset was collected from the University of Toronto's database system a.k.a T-space. The dataset was not that noisy and had two actors(one young and another one was old women) for recording. The dataset was gender-biased as both of the speakers were women. Speech processing was used on that dataset using MFCC feature extraction and later on, Mel Spectrogram was used on them to deduct the features. 3 custom CNN, 1 LSTM, and 1 Densenet were used as an algorithm to predict the categories on unseen data. Again the proportion in training, validation and testing was 70-20-10, but this state was interchanged by time to make sure the algorithm was working correctly. Later on, our own voices were given to determine how the algorithms work in the different data distribution. On similar data distribution, the algorithm given 99.36% accuracy beating the current state of the art on this dataset which was 85%. On different distributions, the algorithm is given 42% due to excessive noise and particularly no extra pre-processing used on them.
+    <article class="card full">
+      <h2>Selected Projects</h2>
+      <ul>
+        <li><strong>Financial News Summarization:</strong> Built English news summarization pipeline and API for SMEs in Europe.</li>
+        <li><strong>FaceNext:</strong> Contributed to face recognition-based access control system for web/mobile with cloud + edge deployment.</li>
+        <li><strong>Emotion Recognition from Voice:</strong> Built deep learning pipeline using MFCC/Mel features and sequential models.</li>
+        <li><strong>Rice Disease Detection:</strong> Capstone project with custom CNN + ResNet variants for disease classification.</li>
+      </ul>
+    </article>
 
-### Personal Projects
+    <article class="card">
+      <h2>Publication</h2>
+      <p>
+        <strong>Data Mining Techniques to Categorize Single Paragraph Formed Self Narrated Stories</strong><br />
+        ICT4SD, 2020.
+      </p>
+    </article>
 
-- **Skin Cancer Detection Using Deep Neural Networks(Paper on Process)**
-The sole purpose of this project was to detect the type/category of skin cancer from the given pigmented skin lesion. The types are Actinic keratoses and intraepithelial carcinoma / Bowen's disease (akiec), basal cell carcinoma (bcc), benign keratosis-like lesions (solar lentigines / seborrheic keratoses and lichen-planus like keratoses, bkl), dermatofibroma (df), melanoma (mel), melanocytic nevi (nv) and vascular lesions (angiomas, angiokeratomas, pyogenic granulomas and haemorrhage, vasc). The dataset was collected from Kaggle’s Skin Cancer MNIST: HAM10000 dataset. The dataset was split into 3 partitions: Training(70%), Validation(20%), and lastly Testing(10%). At first, the dataset was normalised and then it was segmented according to the area. Then data generator was used to provide more variation during training time in batch. The whole project was done using the following algorithms: Custom CNN, Custom RESNET32, Pre-Trained Resnet50, Pre-Trained Resnet101. The highest accuracy was about 93% in Resnet101.
+    <article class="card">
+      <h2>Recognition</h2>
+      <p>
+        8th place at Team Contest of <strong>NeurIPS AutoDL Challenge</strong>
+        (Auto Speech Challenge), co-hosted by Google, Cha-Learn, and 4Paradigm.
+      </p>
+    </article>
 
-- **Liveness/Presentation Error Detection**
-The objective of this project was to catch whether a/some person(s) is really present in a face recognition system or not. The dataset was collected manually by me and my friends. The dataset was directly fed into custom CNN and one Resnet50 algorithm without further preprocessing except resizing. Accuracy on the training set was about 99%.
-
-- **Bangla Handwritten Digit Recognition**
-I have used a dataset from Kaggle and used some image processing before jumping into the project. At first, I used Random Forest Regression Classifier to detect and recognise the digits. Later on, I have used a Convolutional Neural Network to predict on the digits.
-Email Spam Classifier using Support Vector Machine(SVM):
-Here, I used SVM(linear classifier and Gaussian Kernel) to detect whether an email is a spam or not. For this project,  I used the labelled dataset of Coursera’s Machine Learning program and also borrowed some optimisation algorithm from it.
-
-- **Compressing Image Using Clustering Algorithm**
-Here, I used one picture of mine and my friend to compress. At first, I lowered the dimension of it and then used K-means Clustering algorithm into it. Here, I borrowed the optimisation algorithm of Coursera’s Machine Learning program to optimise the parameters of my algorithm.
-
-### Honour and Award
-
-8th at Team Contest of NeurIPS AutoDL challenges (Auto Speech Challenge) co-hosted by Google, Cha-Learn, and 4paradigm.
-
-### Online Profiles
-
-1. LinkedIn: [Md. Mahmudul Haque](https://www.linkedin.com/in/md-mahmudul-haque-8a5484b2)
-2. Github: [alcatraz47](https://github.com/alcatraz47?tab=repositories)
-3. Facebook: [Mahmudul Haque Arfan](https://www.facebook.com/mahmud.arfan.alcatraz47)
-4. Medium: [alcatraz47](https://medium.com/@arfanmahmud47/has-recommended)
-
-### Some certificates..
-
-- Machine Learning Via Coursera Online MOOC from Stanford University: [verification-link](https://www.coursera.org/account/accomplishments/certificate/56GE9TSYS4K2)
-- Neural Networks and Deep Learning: [verification-link](https://www.coursera.org/account/accomplishments/certificate/BBQR5LBFE78B)
-- Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization: [verification-link](https://www.coursera.org/account/accomplishments/certificate/DUTH4LKFWV87)
-- Mathematics for Machine Learning: Linear Algebra Via Coursera Online MOOC from Imperial College London: [verification-link](https://www.coursera.org/account/accomplishments/certificate/DUTH4LKFWV87)
-
-### Reference
-1. Md. Rakib Saleh
-CEO, Unatitech
-Email: rakib@unatitech.se
-
-2. DR. MOHAMMAD RASHEDUR RAHMAN
-Professor & Graduate Coordinator
-PhD in Computer Science, University of Calgary, Canada
-MS in Computer Science, University of Manitoba, Canada
-BS in Computer Science and Engineering, BUET, Bangladesh.
+    <article class="card full">
+      <h2>Interests</h2>
+      <p class="small">Travelling • Listening to music • Reading fiction • Formula 1</p>
+    </article>
+  </section>
+</div>
