@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Md. Mahmudul Haque"
+title: "Md Mahmudul Haque"
 permalink: /
 header:
   overlay_color: "#111111"
