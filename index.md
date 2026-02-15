@@ -12,14 +12,17 @@ header:
       url: "/projects/"
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/md-mahmudul-haque-8a5484b2/"
-excerpt: "AI Engineer & Data Scientist building production-ready ML, Computer Vision, and NLP systems—using LLMs and Vision-Language Models when they truly add value."
+excerpt: "AI Engineer • Computer Vision • NLP • LLMs/VLMs"
+intro_row:
+  - title: ""
+    excerpt: "AI Engineer & Data Scientist building production-ready ML, Computer Vision, and NLP systems—using LLMs and Vision-Language Models when they truly add value."
 feature_row:
   - title: "Computer Vision & OCR"
     excerpt: "Rail and warehouse-focused vision systems with strong real-world robustness."
   - title: "LLMs & NLP"
-    excerpt: "RAG-driven workflows and practical sustainability insight generation from text."
-  - title: "Data Engineering"
-    excerpt: "Reliable pipelines, Databricks integration, and production-ready data systems."
+    excerpt: "LLM- and VLM-assisted NLP workflows focused on measurable impact when these models are the right fit."
+  - title: "ML Engineering"
+    excerpt: "Model training, evaluation, and deployment workflows—from prototypes to reliable systems."
 selected_work_row:
   - title: "Projects"
     excerpt: "Explore a focused portfolio of applied AI and data projects."
@@ -32,6 +35,8 @@ selected_work_row:
     btn_label: "View Experience"
     btn_class: "btn--inverse"
 ---
+
+{% include feature_row id="intro_row" type="left" %}
 
 I’m currently working at **Fraunhofer IML**, delivering computer vision and OCR solutions for railway transportation analytics.
 
