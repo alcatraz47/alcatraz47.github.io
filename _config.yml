@@ -4,8 +4,8 @@ plugins:
   - jekyll-remote-theme
 
 title: "Md Mahmudul Haque"
-subtitle: "AI Engineer & Data Scientist building production-ready ML, Computer Vision, and NLP systems—using LLMs and Vision-Language Models when they truly add value."
-description: "AI Engineer & Data Scientist building production-ready ML, Computer Vision, and NLP systems—using LLMs and Vision-Language Models when they truly add value."
+subtitle: "AI Engineer • Computer Vision • NLP • LLMs/VLMs"
+description: "AI Engineer • Computer Vision • NLP • LLMs/VLMs"
 
 url: "https://alcatraz47.github.io"
 baseurl: ""
