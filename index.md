@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Md. Mahmudul Haque"
+title: "Md Mahmudul Haque"
 permalink: /
 header:
   overlay_color: "#111111"
@@ -12,7 +12,7 @@ header:
       url: "/projects/"
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/md-mahmudul-haque-8a5484b2/"
-excerpt: "Applied AI • Computer Vision/OCR • NLP/LLMs • Data Engineering"
+excerpt: "AI Engineer • Computer Vision • NLP • LLMs/VLMs"
 feature_row:
   - title: "Computer Vision & OCR"
     excerpt: "Rail and warehouse-focused vision systems with strong real-world robustness."
@@ -33,7 +33,7 @@ selected_work_row:
     btn_class: "btn--inverse"
 ---
 
-I build practical AI systems that bridge research and product—from robust computer vision pipelines to NLP workflows that inform real decisions.
+AI Engineer & Data Scientist building production-ready ML, Computer Vision, and NLP systems—using LLMs and Vision-Language Models when they truly add value.
 
 I’m currently working at **Fraunhofer IML**, delivering computer vision and OCR solutions for railway transportation analytics.
 
