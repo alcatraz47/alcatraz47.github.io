@@ -38,6 +38,10 @@ selected_work_row:
 
 {% include feature_row id="intro_row" type="left" %}
 
+## Skills
+
+AI Engineering • Computer Vision • NLP/Understanding • LLMs/VLMs • ML Engineering
+
 I’m currently working at **Fraunhofer IML**, delivering computer vision and OCR solutions for railway transportation analytics.
 
 {% include feature_row %}
