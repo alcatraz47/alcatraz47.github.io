@@ -1,5 +1,7 @@
 remote_theme: "mmistakes/minimal-mistakes"
-plugins: ["jekyll-include-cache"]
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
 
 title: "Md. Mahmudul Haque"
 subtitle: "Applied AI • Computer Vision/OCR • NLP/LLMs • Data Engineering"
