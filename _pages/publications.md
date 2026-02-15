@@ -5,7 +5,7 @@ layout: single
 ---
 
 ## Publication
-- **Data Mining Techniques to Categorize Single Paragraph Formed Self Narrated Stories** — ICT4SD, 2020.
+- Placeholder: Publication details will be added.
 
 ## Capstone
-- **Rice Disease Detection** — Capstone project using custom CNN and ResNet variants for disease classification.
+- Placeholder: Capstone details will be added.
