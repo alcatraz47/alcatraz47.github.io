@@ -1,1 +1,45 @@
-theme: jekyll-theme-minimal
+remote_theme: "mmistakes/minimal-mistakes"
+plugins: ["jekyll-include-cache"]
+
+title: "Md. Mahmudul Haque"
+subtitle: "Applied AI • Computer Vision/OCR • NLP/LLMs • Data Engineering"
+description: "Applied AI professional focused on building practical solutions across computer vision, NLP, and scalable data systems. This site shares projects, experience, publications, and technical writing."
+
+url: "https://alcatraz47.github.io"
+baseurl: ""
+repository: "alcatraz47/alcatraz47.github.io"
+
+author: "mahmudul"
+author_profile: true
+
+minimal_mistakes_skin: "air"
+read_time: true
+breadcrumbs: true
+
+include:
+  - _pages
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      toc: true
+      toc_sticky: true
+
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      author_profile: true
