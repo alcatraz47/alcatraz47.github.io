@@ -44,6 +44,8 @@ AI Engineering • Computer Vision • NLP/Understanding • LLMs/VLMs • ML En
 
 I’m currently working at **Fraunhofer IML**, delivering computer vision and OCR solutions for railway transportation analytics.
 
+I also work with **HT Ventures** on AI customer support automation, integrating copilots into real-world support workflows.
+
 {% include feature_row %}
 
 ## Selected Work

@@ -4,6 +4,17 @@ permalink: /experience/
 layout: single
 ---
 
+## HT Ventures (January 2025–Present)
+**Role:** AI Engineer (Remote)  
+**Location:** Hamburg, Germany
+
+- Architected and delivered an AI customer support copilot integrated with Gorgias + Shopify to streamline high-volume support operations.
+- Implemented reliable ticket-to-store matching and order-context retrieval so agents receive complete customer and order history instantly.
+- Built information extraction and response-suggestion workflows with proactive order-processing flaw detection to surface risks before they escalate.
+- Added intelligent escalation alerts for human agents, reducing average customer waiting time from ~14 days to near-immediate while exposing technical errors as soon as they occur.
+
+**Tools/Stack:** Claude Code, MCP Servers, GCP, GitHub, PyCharm, GitHub Actions, Cloudflare, Redis, Celery, Open-source LLMs
+
 ## Fraunhofer IML (May 2025–Present)
 - Defined logistics requirements and computer vision solutions for railway transportation analytics.
 - Improved object detection performance by more than 2× through pipeline tuning, architecture updates, and dataset augmentation.
