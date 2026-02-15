@@ -9,6 +9,9 @@ url: "https://alcatraz47.github.io"
 baseurl: ""
 repository: "alcatraz47/alcatraz47.github.io"
 
+author: "mahmudul"
+author_profile: true
+
 minimal_mistakes_skin: "air"
 read_time: true
 breadcrumbs: true
@@ -34,3 +37,9 @@ defaults:
       layout: single
       toc: true
       toc_sticky: true
+
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      author_profile: true

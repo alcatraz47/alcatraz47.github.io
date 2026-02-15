@@ -1,0 +1,14 @@
+mahmudul:
+  name: "Md. Mahmudul Haque"
+  bio: "Applied AI • CV/OCR • NLP/LLMs • Data Engineering"
+  location: "Germany"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/alcatraz47"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/md-mahmudul-haque-8a5484b2/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:mahmudulhaquearfan@gmail.com"

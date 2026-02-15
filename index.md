@@ -1,40 +1,44 @@
 ---
-layout: home
+layout: splash
 title: "Md. Mahmudul Haque"
 permalink: /
+header:
+  overlay_color: "#111111"
+  overlay_filter: "0.55"
+  actions:
+    - label: "CV"
+      url: "/cv/"
+    - label: "Projects"
+      url: "/projects/"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/md-mahmudul-haque-8a5484b2/"
+excerpt: "Applied AI • Computer Vision/OCR • NLP/LLMs • Data Engineering"
+feature_row:
+  - title: "Computer Vision & OCR"
+    excerpt: "Rail and warehouse-focused vision systems with strong real-world robustness."
+  - title: "LLMs & NLP"
+    excerpt: "RAG-driven workflows and practical sustainability insight generation from text."
+  - title: "Data Engineering"
+    excerpt: "Reliable pipelines, Databricks integration, and production-ready data systems."
+selected_work_row:
+  - title: "Projects"
+    excerpt: "Explore a focused portfolio of applied AI and data projects."
+    url: "/projects/"
+    btn_label: "View Projects"
+    btn_class: "btn--primary"
+  - title: "Experience"
+    excerpt: "See my roles across research and industry, from CV to LLM systems."
+    url: "/experience/"
+    btn_label: "View Experience"
+    btn_class: "btn--inverse"
 ---
 
-## Md. Mahmudul Haque
+I build practical AI systems that bridge research and product—from robust computer vision pipelines to NLP workflows that inform real decisions.
 
-*Applied AI • Computer Vision/OCR • NLP/LLMs • Data Engineering*
+I’m currently working at **Fraunhofer IML**, delivering computer vision and OCR solutions for railway transportation analytics.
 
-I enjoy turning messy real-world problems into practical AI products—serious engineering with a bit of playful curiosity. My focus is building reliable systems that move from experiment to deployment across computer vision, NLP, and scalable data workflows.
+{% include feature_row %}
 
-<a class="btn btn--primary" href="/cv/">CV</a>
-<a class="btn btn--info" href="https://github.com/alcatraz47">GitHub</a>
-<a class="btn btn--success" href="https://www.linkedin.com/in/md-mahmudul-haque-8a5484b2">LinkedIn</a>
+## Selected Work
 
-### Now
-
-**Fraunhofer IML (May 2025–Present)**
-- Defining logistics requirements and computer vision solutions for railway transportation analytics.
-- Improved object detection performance by more than **2×** through training pipeline, architecture, and augmentation refinements.
-- Implemented OCR for wagon/container numbers with statistical validation in real-world conditions.
-
-### Highlights
-
-- Computer vision and OCR pipelines for high-variability, real-world data.
-- NLP and LLM systems, including retrieval-augmented and insight extraction workflows.
-- Data engineering foundations: ETL, automation, and analytics-ready modeling.
-- Production-minded AI: compact models, scalable inference, and deployment reliability.
-
-### Education
-
-- **Master of Data Science**, University of Oldenburg *(Expected Summer 2027)*
-- **BSc in Computer Science & Engineering**, North South University *(2015–2019)*
-
-### Featured Projects
-
-A curated set of selected work is available on the projects page.
-
-[Explore projects →](/projects/)
+{% include feature_row id="selected_work_row" %}
